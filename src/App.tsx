@@ -55,10 +55,10 @@ function App() {
             <div className="flex flex-col gap-4">
               <div className="flex sm:flex-row flex-col gap-4">
                 <SocialPanel ext_content={null} type={2} url={"https://www.linkedin.com/in/oussama-aichaoui-381b49245"} content={ "LINKEDIN" } />
-                <SocialPanel ext_content={null} type={1} content={ "Fiverr" } />
+                <SocialPanel url={""} ext_content={null} type={1} content={ "Fiverr" } />
               </div>
               <div className="flex sm:flex-row flex-col gap-4">
-                <SocialPanel  content={ "Phone" } ext_content={"+213792333216"} />
+                <SocialPanel  url={""} type={4} content={ "Phone" } ext_content={"+213792333216"} />
                 <SocialPanel ext_content={null} type={3} url={"mailto:ouss.aich2022@gmail.com"} content={ "Email" } />
               </div>
             </div>
