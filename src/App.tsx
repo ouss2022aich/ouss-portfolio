@@ -54,12 +54,12 @@ function App() {
           <div className="flex justify-center">
             <div className="flex flex-col gap-4">
               <div className="flex sm:flex-row flex-col gap-4">
-                <SocialPanel type={2} url={"https://www.linkedin.com/in/oussama-aichaoui-381b49245"} content={ "LINKEDIN" } />
-                <SocialPanel type={1} content={ "Fiverr" } />
+                <SocialPanel ext_content={null} type={2} url={"https://www.linkedin.com/in/oussama-aichaoui-381b49245"} content={ "LINKEDIN" } />
+                <SocialPanel ext_content={null} type={1} content={ "Fiverr" } />
               </div>
               <div className="flex sm:flex-row flex-col gap-4">
                 <SocialPanel  content={ "Phone" } ext_content={"+213792333216"} />
-                <SocialPanel type={3} url={"mailto:ouss.aich2022@gmail.com"} content={ "Email" } />
+                <SocialPanel ext_content={null} type={3} url={"mailto:ouss.aich2022@gmail.com"} content={ "Email" } />
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import OutlineButton from "./OutlineButton";
+
 import ProjectCard from "./ProjectCard";
 import projectImg from '../assets/images/project.jpeg';
 import projectImg2 from '../assets/images/project2.jpeg';

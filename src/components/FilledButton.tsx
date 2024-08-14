@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+
 import download_icon from "../assets/icons/download.png";
 import resume from '../assets/resume/cv_ouss_en.pdf';
 
