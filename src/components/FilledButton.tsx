@@ -2,7 +2,11 @@ import { ReactElement } from "react";
 import download_icon from "../assets/icons/download.png";
 import resume from '../assets/resume/cv_ouss_en.pdf';
 
-export default function FilledButton({ content }): ReactElement {
+interface FilledButtonProps {
+  content: string;
+}
+
+const  FilledButton : React.FC<FilledButtonProps>  = ({ content })  => {
     return (
       <a href={resume} className="inline-block">
       <button className="px-4 py-2 bg-gradient-to-b from-blue-700 h-[50px] to-blue-950 rounded-lg  group btn-outline flex items-center gap-4 overflow-hidden">
@@ -18,3 +22,4 @@ export default function FilledButton({ content }): ReactElement {
       </a>
     );
   }
+  export default  FilledButton;

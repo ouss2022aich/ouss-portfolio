@@ -1,6 +1,13 @@
-import { ReactElement } from "react";
+import React from "react";
 
-export default function Section ({ classes, children }){
+
+interface SectionProps {
+  classes: string;
+  children: React.ReactNode;
+  
+}
+
+const Section : React.FC<SectionProps> = ({ classes, children }) => {
 
       return (
            <section className={ `section flex ${classes}` } >
@@ -9,3 +16,5 @@ export default function Section ({ classes, children }){
       )
      
 }
+
+export default Section;

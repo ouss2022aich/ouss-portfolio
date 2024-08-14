@@ -1,4 +1,12 @@
-export default function TextArea({name, placeholder}) {
+
+interface TextAreaProps {
+  name: string;
+  placeholder: string;
+
+}
+
+
+const  TextArea : React.FC<TextAreaProps> = ({name, placeholder}) => {
     return (
       <div className="flex-1 ">
         <label htmlFor="fname"> {name} </label>
@@ -8,3 +16,5 @@ export default function TextArea({name, placeholder}) {
       </div>
     );
   }
+
+  export default TextArea;

@@ -1,7 +1,15 @@
 import { ReactElement } from "react";
 import arrow_tr from "../assets/icons/arrow_tr.png";
 
-export default function OutlineButton({ content, setModal = null  }): ReactElement {
+interface OutlineButtonProps {
+  content: string;
+  setModal: any;
+
+}
+
+
+
+const  OutlineButton  : React.FC<OutlineButtonProps> = ({ content, setModal = null  }) =>  {
   
 
   return (
@@ -17,3 +25,6 @@ export default function OutlineButton({ content, setModal = null  }): ReactEleme
     </button>
   );
 }
+
+
+export default  OutlineButton;
