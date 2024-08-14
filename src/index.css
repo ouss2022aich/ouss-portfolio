@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section {
+    @apply px-20 py-10 bg-neutral-900;
+  }
+
+  
+}
