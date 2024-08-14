@@ -6,7 +6,7 @@ const icons = [
   arrow_r , fiverr , linkedin , mail
 ]
 
-export default function SocialPanel( { content , url='' , type = 0 , ext_content } ) {
+export default function SocialPanel( { content , url='' , type = 0 , ext_content = null } ) {
   return (
     <a href={ url } className="bg-neutral-600 px-10 py-7  cursor-pointer rounded-lg flex justify-between w-60 ">
       <span> { content }</span>
