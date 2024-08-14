@@ -1,6 +1,14 @@
-import OutlineButton from "./OutlineButton";
+
 import Modal from "./Modal";
-export default function ProjectCard( {projectName, projectPic, description , tools =[]} ) {
+
+interface ProjectCardProps {
+  projectName: string;
+  description: string;
+  projectPic: string;
+  tools: string[];
+}
+
+ const ProjectCard: React.FC<ProjectCardProps> =({ projectName, description, projectPic, tools }) => {
 
 return (
 
@@ -27,3 +35,6 @@ return (
 )
     
 }
+
+
+export default ProjectCard;
