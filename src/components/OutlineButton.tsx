@@ -1,4 +1,3 @@
-import { ReactElement } from "react";
 import arrow_tr from "../assets/icons/arrow_tr.png";
 
 interface OutlineButtonProps {

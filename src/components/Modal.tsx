@@ -1,7 +1,16 @@
-import React, { useState } from "react";
+import  React, { useState } from "react";
 import OutlineButton from "./OutlineButton";
 
-const Modal = ( { title , description , projectImg , tools =[] }) => {
+
+interface ModalProps {
+  title: string;
+  description: any;
+  projectImg: string;
+  tools : string[];
+
+}
+
+const Modal : React.FC<ModalProps> = ( { title , description , projectImg , tools =[] }) => {
   const [showModal, setShowModal] = useState(false);
   return (
     <>

@@ -10,7 +10,6 @@ interface SocialPanelProps {
   content: string,
   url: string ,
   type: number,
-  tools: string[],
   ext_content : string | null 
 }
 

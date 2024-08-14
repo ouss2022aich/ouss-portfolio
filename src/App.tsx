@@ -9,7 +9,7 @@ import SocialPanel from "./components/SocialPanel";
 
 import ContactForm from "./components/ContactForm";
 import ProjectCardGroup from "./components/ProjectCards";
-import Modal from "./components/Modal";
+
 
 
 
@@ -37,7 +37,7 @@ function App() {
             </p>
           </div>
           <div className="flex gap-4 flex-wrap">
-            <a href="#projects"><OutlineButton content={"MY POJECTS"}  /></a>
+            <a href="#projects"><OutlineButton content={"MY POJECTS"} setModal={null} /></a>
             <FilledButton content={"DOWNLOAD MY RESUME"} />
           </div>
         </div>

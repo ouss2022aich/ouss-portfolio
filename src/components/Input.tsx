@@ -1,4 +1,11 @@
-export default function Input({name, placeholder}) {
+import React from "react";
+
+interface InputProps {
+  name: string;
+  placeholder: string;
+}
+
+const  Input : React.FC<InputProps> = ( {name, placeholder} ) =>  {
   return (
     <div className="flex-1">
       <label htmlFor="fname"> {name} </label>
@@ -11,3 +18,4 @@ export default function Input({name, placeholder}) {
     </div>
   );
 }
+export default Input;
