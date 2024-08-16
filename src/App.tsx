@@ -54,7 +54,7 @@ function App() {
           <div className="flex justify-center">
             <div className="flex flex-col gap-4">
               <div className="flex sm:flex-row flex-col gap-4">
-                <SocialPanel ext_content={null} type={2} url={"https://www.linkedin.com/in/oussama-aichaoui-381b49245"} content={ "LINKEDIN" } />
+                <SocialPanel ext_content={null} type={2} url={"https://www.linkedin.com/in/oussama-aichaoui/"} content={ "LINKEDIN" } />
                 <SocialPanel url={""} ext_content={null} type={1} content={ "Fiverr" } />
               </div>
               <div className="flex sm:flex-row flex-col gap-4">
