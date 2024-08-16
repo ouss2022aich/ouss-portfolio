@@ -12,7 +12,7 @@ const  OutlineButton  : React.FC<OutlineButtonProps> = ({ content, setModal = nu
   
 
   return (
-    <button onClick={ () => setModal(true) }  className="px-4 py-2 border rounded-lg border-white border-4 group btn-outline flex items-center gap-4 overflow-hidden">
+    <button onClick={ () => setModal(true) }  className="px-4 py-2  rounded-lg border-white border-4 group btn-outline flex items-center gap-4 overflow-hidden">
       <span className="transition-all duration-200 translate-x-4 group-hover:translate-x-0">
         { content }
       </span>

@@ -88,7 +88,7 @@ const Modal: React.FC<ModalProps> = ({
                       <ul className="text-left w-full flex gap-4 flex-wrap my-2">
                         {tools.map((t) => {
                           return (
-                            <span className="py-2 px-5 rounded rounded-xl bg-gradient-to-b from-violet-600 to-violet-900 w-40 text-center">
+                            <span className="py-2 px-5 rounded-xl bg-gradient-to-b from-violet-600 to-violet-900 w-40 text-center">
                               {t}{" "}
                             </span>
                           );
