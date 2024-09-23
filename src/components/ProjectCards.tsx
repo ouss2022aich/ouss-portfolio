@@ -4,11 +4,14 @@ import projectImg2 from "../assets/images/project2.jpeg";
 import projectImg3 from "../assets/images/project3.png";
 import projectImg4 from "../assets/images/project4.png";
 import projectImg5 from "../assets/images/project5.png";
+import projectImg6 from "../assets/icons/popcorn.png";
 
 export default function ProjectCardGroup() {
   return (
     <div className="project-card-group">
       <div className="project-cards grid gap-10 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-2 xl:grid-cols-3 xl:grid-rows-2 ">
+        
+        
         <ProjectCard
           projectName={"British School "}
           shortDescription={
@@ -25,6 +28,27 @@ export default function ProjectCardGroup() {
           tools={["HTML", "CSS", "TailWind", "JS", "JQuery", "PHP", "MySQL"]}
           tasks={null}
         />
+
+
+<ProjectCard
+          projectName={"CimaFlix "}
+          shortDescription={
+            "Cimaflix is a user-friendly API-driven application designed for movie and series enthusiasts."
+          }
+          description={
+            `Cimaflix is a user-friendly API-driven application designed for movie and series enthusiasts. Users must register and log in to access a rich database of film and television content. The platform offers features such as:<br>
+            <b><mark>User Authentication: </b></mark> Secure account creation and login for personalized experiences.<br>
+            <b><mark>User Profiles: </b></mark> Customize your profile and track your viewing history.<br>
+            <b><mark>Watchlist: </b></mark> Save your favorite titles and keep track of what you want to watch next.<br>
+            <b><mark>Search and Filter Options: </b></mark> Easily find content based on genres, release dates, and ratings.<br>
+            <br>
+            <b class="text-gray-500"> Check The Project On Github : <b class="text-blue-500"><a href="https://github.com/ouss2022aich/CimaFlix"> CimaFlix </a> </b></b>`
+          }
+          projectPic={projectImg6}
+          tools={["HTML", "CSS", "TailWind", "JS", "PHP", "MySQL" ,  "Laravel" , "Sail"]}
+          tasks={null}
+        />
+
         <ProjectCard
           projectName={"GalaxyBenef"}
           shortDescription ={'large-scale application named Galaxybenef, based on network marketing and comprising three platforms.'}
