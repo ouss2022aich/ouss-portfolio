@@ -4,7 +4,8 @@ import projectImg2 from "../assets/images/project2.jpeg";
 import projectImg3 from "../assets/images/project3.png";
 import projectImg4 from "../assets/images/project4.png";
 import projectImg5 from "../assets/images/project5.png";
-import projectImg6 from "../assets/icons/popcorn.png";
+import projectImg6 from "../assets/images/project6.png";
+import popcorn from "../assets/icons/popcorn.png";
 
 export default function ProjectCardGroup() {
   return (
@@ -17,6 +18,7 @@ export default function ProjectCardGroup() {
           shortDescription={
             "this project is a school app the manages everything from school history to administration."
           }
+          miniPic={projectImg2}
           description={
             `This project is an English school application designed to manage all aspects of the educational process, from student registration to level management and exam administration. The app includes the following features:<br>
              <b><mark>Student Registration: </b></mark> Streamlines the enrollment process for new students.<br>
@@ -44,6 +46,7 @@ export default function ProjectCardGroup() {
             <br>
             <b class="text-gray-500"> Check The Project On Github : <b class="text-blue-500"><a href="https://github.com/ouss2022aich/CimaFlix"> CimaFlix </a> </b></b>`
           }
+          miniPic={popcorn}
           projectPic={projectImg6}
           tools={["HTML", "CSS", "TailWind", "JS", "PHP", "MySQL" ,  "Laravel" , "Sail"]}
           tasks={null}
@@ -57,6 +60,7 @@ export default function ProjectCardGroup() {
                         <br><mark>- Partage:</mark> A referral system.
                       `}
           projectPic={projectImg}
+          miniPic={projectImg}
           tools={["HTML", "CSS", "Bootstrap", "JS", "JQuery", "PHP", "MySQL"]}
           tasks={ ['Development of Back-end and Front-end platforms',
                    'Ensure data security and user access',
@@ -73,6 +77,7 @@ export default function ProjectCardGroup() {
           description={"A modern Mockup for a social media app"}
           projectPic={projectImg4}
           tasks={null}
+          miniPic={projectImg4}
           tools={["Figma", "Gradient Design" , "Responsive Design"]}
         />
         <ProjectCard
@@ -80,6 +85,7 @@ export default function ProjectCardGroup() {
           shortDescription ={'a modern gradient mockup for car services app.'}
           description={"a modern gradient mockup for car services app"}
           projectPic={projectImg5}
+          miniPic={projectImg5}
           tools={["Figma", "Gradient Design" , "Responsive Design"]}
           tasks={ null }
         />
@@ -92,6 +98,7 @@ export default function ProjectCardGroup() {
           description={
             "This Project is an app that allow the user to input the general balance of  this year (N) and the past year (n-1) and output all of the 12 Finances Docuements For Accounting Purposes "
           }
+          miniPic={projectImg3}
           projectPic={projectImg3}
           tools={["Excel", "VBA"]}
           tasks={ null }
